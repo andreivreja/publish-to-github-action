@@ -25,7 +25,6 @@ git lfs install
 # publish any new files
 git checkout ${BRANCH_NAME}
 git add -A
-timestamp=$(date -u)
 git commit -m "${ACTION_TITLE}" || exit 0
 git pull --rebase publisher ${BRANCH_NAME}
 git push publisher ${BRANCH_NAME}
