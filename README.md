@@ -1,3 +1,7 @@
+**Adapted to my own needs**
+
+Original repo is https://github.com/mikeal/publish-to-github-action
+
 # `publish-to-github-action`
 
 A GitHub Action to push any local file changes, including new files, back to supplied branch name.
