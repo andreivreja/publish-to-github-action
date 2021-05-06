@@ -14,7 +14,7 @@ fi
 remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 git config http.sslVerify false
 git config user.name "Velia Inn"
-git config user.email "hi@veliainn.com"
+git config user.email "44036562+actions@users.noreply.github.com"
 git remote add publisher "${remote_repo}"
 git show-ref # useful for debugging
 git branch --verbose
