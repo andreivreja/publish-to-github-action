@@ -12,6 +12,7 @@ LABEL "maintainer"="peaceiris"
 RUN apk --no-cache add openssl git curl openssh-client bash
     
 COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
 
 RUN echo CWD `pwd` \
